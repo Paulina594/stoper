@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoper</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat:400,700&display=swap&subset=latin-ext"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ecdffa0b01.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Kalam:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="ribbon-wrapper">
+    <div class="ribbon">
+        <a href="https://github.com/Paulina594/stoper">Fork me on GitHub!</a>
+    </div>
+</div>
+
+<div class="wrapper">
+    <div class="options">
+        <p class="color">
+            <i class="fa-solid fa-paintbrush"></i>
+        </p>
+        <p class="info">
+            <i class="fas fa-question"></i>
+        </p>
+    </div>
+    <div class="color-panel">
+        <div class="circle color1" data-value="lightgreen"></div>
+        <div class="circle color2" data-value="powderblue"></div>
+        <div class="circle color3" data-value="hotpink"></div>
+    </div>
+    <h1>Stoper</h1>
+    <p class="stopwatch">0:00</p>
+    <p class="time">0:00</p>
+    <div class="buttons">
+        <button class="start"><i class="fas fa-play"></i></button>
+        <button class="pause"><i class="fas fa-pause"></i></button>
+        <button class="stop"><i class="fas fa-stop"></i></button>
+        <button class="reset"><i class="fas fa-times"></i></button>
+        <button class="historyBtn">archiwum</button>
+    </div>
+    <div class="history">
+        <p class="errorInfo">Nie masz jeszcze zapisanych pomiarów</p>
+        <ul class="time-list">
+        </ul>
+    </div>
+</div>
+
+<div class="modal-shadow">
+    <div class="modal">
+        <h3>Instrukcja:</h3>
+        <p><i class="fas fa-play"></i> - start</p>
+        <p><i class="fas fa-pause"></i> - pauza</p>
+        <p><i class="fas fa-stop"></i> - stop</p>
+        <p><i class="fas fa-times"></i> - skasuj wszystko (łącznie z archiwum)</p>
+        <p><strong>archiwum</strong> - zobacz wcześniejsze pomiary</p>
+        <button class="close">Zamknij</button>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-wrapper">
+        <div class="footer">
+            <div class="social-container">
+                <a
+                        href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                        target="_blank"
+                        rel="noreferrer"
+                >
+                    <i class="fa-brands fa-linkedin-in social"></i>
+                </a>
+                <a
+                        href="https://github.com/Paulina594"
+                        target="_blank"
+                        rel="noreferrer"
+                >
+                    <i class="fa-brands fa-github social"></i>
+                </a>
+                <a
+                        href="https://api.whatsapp.com/send?phone=48575363003"
+                        target="_blank"
+                        rel="noreferrer"
+                >
+                    <i class="fa-brands fa-whatsapp social"></i>
+                </a>
+                <a
+                        href="https://www.paulinadrozdz.me"
+                        target="_blank"
+                        rel="noreferrer"
+                >
+                    <div class="pd social">
+                        <img src="./images/pd.png" alt="pd">
+<!--                        <span class="p">p</span>-->
+<!--                        <span class="d">d</span>-->
+                    </div>
+                </a>
+            </div>
+            <p class="copyrights">© Designed and build by Paulina Drożdż</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
